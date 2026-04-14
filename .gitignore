@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Large binary model files
+models/
+*.gguf
+*.bin
+*.onnx
+
+# Audio files (generated/temp)
+input.wav
+test.wav
+*.wav
+
+# Piper TTS binaries
+piper/
+
+# llama.cpp build directory
+llama.cpp/
+
+# Logs
+w_stderr.txt
+w_stdout.txt
+*.log
+
+# VS tooling
+.vs/
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
